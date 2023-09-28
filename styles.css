@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom, #00274e, #00101a); /* Gradien biru gelap */
+}
+
+.container {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #00274e; /* Sesuaikan dengan warna latar belakang */
+    box-shadow: 0 0 20px rgba(0, 123, 255, 0.3);
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #fff; /* Sesuaikan dengan warna latar belakang container */
+}
+
+input {
+    width: calc(100% - 82px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #0056b3; /* Ubah warna tombol menjadi lebih gelap */
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.5);
+}
+
+button:hover {
+    background-color: #003c80; /* Warna tombol saat di hover */
+}
+
+#results-container {
+    text-align: left;
+    color: #fff;
+}
