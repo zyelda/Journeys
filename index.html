@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Journey</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    
+    <title>ChatGPT Tugas Mahasiswa</title>
 </head>
 <body>
     <div class="container">
-        <h1>Temukan Jawaban untuk Tugas Anda</h1>
-        <input type="text" id="search-input" placeholder="Ketik pertanyaan Anda...">
-        <button id="search-button">Cari</button>
-        <div id="results-container"></div>
+        <div class="input-container">
+            <input type="text" id="inputQuestion" placeholder="Masukkan pertanyaan...">
+            <button onclick="submitQuestion()">Submit</button>
+        </div>
+        <div class="response-container" id="responseContainer">
+        </div>
     </div>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
